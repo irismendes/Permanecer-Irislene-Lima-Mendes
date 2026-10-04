@@ -33,21 +33,25 @@ O sistema soma pontos de três grupos: frequência, média e participação. Qua
 - HTTP REST
 
 ## 5. Como executar
-Requisitos: Node.js 22 ou superior e Python 3.
+Requisitos: Node.js 22 ou superior.
+
 
 ### Backend
 ```bash
 cd backend
 npm install
 npm start
+
 ```
 A API ficará em `http://localhost:3000`.
 
 ### Frontend
 Em outro terminal:
-```bash
-cd frontend
-python3 -m http.server 8000
+```cd frontend
+npm install
+npm start
+# ou npm run dev
+
 ```
 Abra `http://localhost:8000`.
 
@@ -60,7 +64,8 @@ Projeto_Irislene_Permanencia/
 ├── frontend/
 │   ├── index.html
 │   ├── style.css
-│   └── app.js
+│   ├── app.js
+│   └── package.json
 ├── data/
 ├── diagrams/
 ├── docs/
